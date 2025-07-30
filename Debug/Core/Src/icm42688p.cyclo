@@ -1,0 +1,9 @@
+../Core/Src/icm42688p.c:4:13:CS_Low	1
+../Core/Src/icm42688p.c:8:13:CS_High	1
+../Core/Src/icm42688p.c:12:16:SPI_ReadWrite	1
+../Core/Src/icm42688p.c:18:13:ICM42688P_WriteReg	1
+../Core/Src/icm42688p.c:25:16:ICM42688P_ReadReg	1
+../Core/Src/icm42688p.c:33:13:ICM42688P_ReadMulti	2
+../Core/Src/icm42688p.c:42:6:ICM42688P_Init	2
+../Core/Src/icm42688p.c:67:9:ICM42688P_ReadID	1
+../Core/Src/icm42688p.c:71:6:ICM42688P_ReadAccelGyro	1

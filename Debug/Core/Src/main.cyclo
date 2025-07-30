@@ -1,0 +1,13 @@
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h:2950:26:LL_USART_IsActiveFlag_FE	2
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h:2972:26:LL_USART_IsActiveFlag_ORE	2
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h:3009:26:LL_USART_IsActiveFlag_TC	2
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h:3024:26:LL_USART_IsActiveFlag_TXE_TXFNF	2
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h:3290:22:LL_USART_ClearFlag_FE	1
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h:3312:22:LL_USART_ClearFlag_ORE	1
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h:3479:22:LL_USART_EnableIT_RXNE_RXFNE	2
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h:4275:22:LL_USART_TransmitData8	1
+../Core/Src/main.c:35:5:_write	6
+../Core/Src/main.c:92:5:main	1
+../Core/Src/main.c:157:6:SystemClock_Config	4
+../Core/Src/main.c:217:6:MPU_Config	1
+../Core/Src/main.c:248:6:Error_Handler	1
