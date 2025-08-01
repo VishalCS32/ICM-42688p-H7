@@ -60,6 +60,7 @@ ICM42688P_HandleTypeDef hicm;
 
 int16_t accel[3], gyro[3];
 
+ICM42688P_Data_t sensor;
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -132,7 +133,9 @@ int main(void)
   // Init sensor
   ICM42688P_Init(&hicm, &hspi3);
 
-//  HAL_Delay(100);
+
+
+  HAL_Delay(100);
 
   /* USER CODE END 2 */
 
@@ -144,8 +147,14 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-	  ICM42688P_ReadAccelGyro(&hicm, accel, gyro);
-	  HAL_Delay(50);
+	  ICM42688P_ReadData(&hicm, &sensor);
+
+	  printf("ACCEL: X = %.2f, Y = %.2f, Z =  %.2f | GYRO: X = %.2f, Y = %.2f, Z =  %.2f | TEMP: %.2f°C\r\n",
+			  sensor.accel[0], sensor.accel[1], sensor.accel[2],
+			  sensor.gyro[0], sensor.gyro[1], sensor.gyro[2],
+			  sensor.temperature);
+
+	  HAL_Delay(1);
   }
   /* USER CODE END 3 */
 }
